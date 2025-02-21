@@ -1,69 +1,61 @@
-# Welcome to your Lovable project
+# Crypto Savings Vault
 
-## Project info
+## Description
+Crypto Savings Vault is a decentralized application (dApp) that allows users to securely save and withdraw ETH while tracking their balances. The project utilizes Ethereum smart contracts to provide a transparent and efficient way to manage savings in cryptocurrency.
 
-**URL**: https://lovable.dev/projects/4f3dbac7-dc27-4015-868d-4f1a051fe23d
+## Features
+- Deposit ETH into the vault
+- Withdraw ETH anytime
+- Track balance seamlessly using smart contracts
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/4f3dbac7-dc27-4015-868d-4f1a051fe23d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Smart Contract Address
+```
+0x03393EA066836D402218c1AB09cce0adE91443EC
 ```
 
-**Edit a file directly in GitHub**
+## Getting Started
+### Prerequisites
+- Node.js & npm installed
+- MetaMask or any Web3 wallet
+- Ganache (for local testing)
+- Hardhat (for smart contract development)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/kunalgupta016/Saving-Vault.git
+   cd Saving-Vault
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Compile the smart contracts:
+   ```sh
+   npx hardhat compile
+   ```
+4. Deploy the smart contract (update network settings as needed):
+   ```sh
+   npx hardhat run scripts/deploy.js --network rinkeby
+   ```
 
-**Use GitHub Codespaces**
+## Usage
+1. Connect your wallet (MetaMask) to the dApp.
+2. Deposit ETH to start saving.
+3. Withdraw ETH anytime you need it.
+4. Track your balance using the interface.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technologies Used
+- Solidity
+- Hardhat
+- Ethers.js
+- Web3.js
+- React (Frontend, if applicable)
 
-## What technologies are used for this project?
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4f3dbac7-dc27-4015-868d-4f1a051fe23d) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Contact
+For any questions or contributions, reach out via:
+- GitHub Issues
+- Email: kunalgupta55005@gmail.com
