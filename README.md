@@ -15,7 +15,7 @@ Crypto Savings Vault is a decentralized application that allows users to securel
 ## 🛠️ Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/crypto-savings-vault.git
+   git clone https://github.com/kunalgupta016/crypto-savings-vault.git
    cd crypto-savings-vault
    ```
 2. Install dependencies:
