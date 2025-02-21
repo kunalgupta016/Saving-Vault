@@ -53,4 +53,4 @@ This project is licensed under the MIT License.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📞 Contact
-For queries or collaborations, reach out at [your-email@example.com](mailto:your-email@example.com).
+For queries or collaborations, reach out at [kunalgupta55005@example.com](mailto:kunalgupta55005@example.com).
