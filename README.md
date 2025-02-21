@@ -1,56 +1,69 @@
-# Crypto Savings Vault
+# Welcome to your Lovable project
 
-## 🚀 Project Overview
-Crypto Savings Vault is a decentralized application that allows users to securely save and withdraw ETH while tracking their balances through smart contracts.
+## Project info
 
-## 📜 Smart Contract Details
-- **Contract Address:** `0x03393EA066836D402218c1AB09cce0adE91443EC`
-- **Network:** Ethereum
+**URL**: https://lovable.dev/projects/4f3dbac7-dc27-4015-868d-4f1a051fe23d
 
-## 🔧 Features
-- Save ETH into the smart contract.
-- Withdraw ETH from the vault.
-- Track account balance in real-time.
+## How can I edit this code?
 
-## 🛠️ Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/kunalgupta016/crypto-savings-vault.git
-   cd crypto-savings-vault
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Set up environment variables:
-   - Create a `.env` file and add your Ethereum provider details.
-4. Start the application:
-   ```sh
-   npm start
-   ```
+There are several ways of editing your application.
 
-## 📜 Smart Contract Interaction
-To interact with the smart contract, you can use Web3.js or Ethers.js:
+**Use Lovable**
 
-Example using Web3.js:
-```javascript
-const Web3 = require('web3');
-const web3 = new Web3('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID');
-const contractABI = [/* ABI goes here */];
-const contractAddress = '0x03393EA066836D402218c1AB09cce0adE91443EC';
-const contract = new web3.eth.Contract(contractABI, contractAddress);
+Simply visit the [Lovable Project](https://lovable.dev/projects/4f3dbac7-dc27-4015-868d-4f1a051fe23d) and start prompting.
+
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## 🏗️ Future Enhancements
-- Add support for multiple cryptocurrencies.
-- Implement staking rewards.
-- Develop a front-end dashboard for user-friendly interactions.
+**Edit a file directly in GitHub**
 
-## 📜 License
-This project is licensed under the MIT License.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+**Use GitHub Codespaces**
 
-## 📞 Contact
-For queries or collaborations, reach out at [kunalgupta55005@gmail.com](mailto:kunalgupta55005@gmail.com).
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/4f3dbac7-dc27-4015-868d-4f1a051fe23d) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
